@@ -1,13 +1,9 @@
 version: 2
 updates:
-  # Example for npm dependencies
+
   - package-ecosystem: "npm"
     directory: "/" # Location of the package manifest (e.g., package.json)
     schedule:
       interval: "weekly" # Check for updates weekly
 
-  # Example for GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/" # Location of workflow files in .github/workflows
-    schedule:
-      interval: "weekly" # Check for updates weekly
+
